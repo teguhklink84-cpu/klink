@@ -1,0 +1,41 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+venv/
+env/
+.python-version
+
+# Streamlit secrets - JANGAN COMMIT!
+.streamlit/secrets.toml
+
+# OS
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs
+*.log
+
+# Temp files
+*.tmp
+*.temp
+
+# Backup files
+*_backup.py
+*_old.py
+backup/
+old/
+
+# Local development files
+local_keygen.py
+test_app.py
+setup.bat
