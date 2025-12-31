@@ -1,8 +1,8 @@
 streamlit>=1.28.0
-pandas
-numpy
-plotly>=5.18.0
+pandas>=2.1.0
+numpy>=1.24.0
+plotly>=5.17.0
+pyodbc>=4.0.39
+sshtunnel>=0.4.0
+paramiko>=3.4.0
 pymysql
-paramiko==2.12.0
-sshtunnel
-pyodbc
