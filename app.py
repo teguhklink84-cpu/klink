@@ -6,7 +6,7 @@ import time
 import re
 
 # ==================== CONFIGURATION ====================
-APP_NAME = "K-Link Analytics"
+APP_NAME = "Login"
 APP_VERSION = "1.0.0"
 
 # ✅ COMBINED: Bisa local dan online
