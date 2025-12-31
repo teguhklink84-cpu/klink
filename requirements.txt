@@ -1,7 +1,8 @@
-streamlit==1.28.0
-pandas==2.1.3
-plotly==5.17.0
-pymssql==2.2.7
-sshtunnel==0.4.0
-paramiko==3.4.1
-numpy==1.26.4
+streamlit>=1.28.0
+pandas
+numpy
+plotly>=5.18.0
+pymysql
+paramiko==2.12.0
+sshtunnel
+pyodbc
