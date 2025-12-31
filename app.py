@@ -174,28 +174,28 @@ def show_login():
             st.caption(f"v{APP_VERSION} | {ENVIRONMENT}")
             
             # Demo key
-            if 'demo_key' not in st.session_state:
-                st.session_state.demo_key = generate_demo_key()
+            #if 'demo_key' not in st.session_state:
+             #   st.session_state.demo_key = generate_demo_key()
             
-            st.info("**Quick Start:** Click the button below for instant access")
+            #st.info("**Quick Start:** Click the button below for instant access")
             
-            if st.button("🚀 **TRY DEMO**", type="primary", use_container_width=True):
-                validator = LicenseValidator()
-                valid, result = validator.validate(st.session_state.demo_key)
+            #if st.button("🚀 **TRY DEMO**", type="primary", use_container_width=True):
+             #   validator = LicenseValidator()
+              #  valid, result = validator.validate(st.session_state.demo_key)
                 
-                if valid:
-                    st.session_state.authenticated = True
-                    st.session_state.user_info = result
-                    st.success("Login successful!")
-                    time.sleep(1)
-                    st.rerun()
-                else:
-                    st.error(result)
+               # if valid:
+                #    st.session_state.authenticated = True
+                 #   st.session_state.user_info = result
+                  #  st.success("Login successful!")
+                   # time.sleep(1)
+                    #st.rerun()
+                #else:
+                 #   st.error(result)
             
-            st.markdown("---")
+           # st.markdown("---")
             
             # Custom license
-            st.markdown("**Or use your own license:**")
+            #st.markdown("**Or use your own license:**")
             
             tab1, tab2 = st.tabs(["📝 Paste Key", "📤 Upload File"])
             
